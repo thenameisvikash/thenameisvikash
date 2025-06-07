@@ -42,10 +42,13 @@ I'm a passionate DevOps engineer specializing in **hybrid infrastructure archite
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-### 🗄️ **Data & Messaging**
+### 🗄️ **Database & Storage**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Zookeeper](https://img.shields.io/badge/Apache_ZooKeeper-D22128?style=flat-square&logo=apache&logoColor=white)
+![ProxySQL](https://img.shields.io/badge/ProxySQL-336791?style=flat-square&logo=mysql&logoColor=white)
 
 ### 🤖 **AI Infrastructure**
 ![LLaMA](https://img.shields.io/badge/LLaMA-412991?style=flat-square&logo=meta&logoColor=white)
@@ -64,9 +67,11 @@ I'm a passionate DevOps engineer specializing in **hybrid infrastructure archite
 
 | 🎯 Achievement | 📈 Impact |
 |:---|:---|
+| **MySQL NDB Cluster Architecture** | Designed production-ready database cluster with **zero downtime** failover |
 | **Kubernetes Adoption Leadership** | Reduced deployment time by **60%** across hybrid environments |
 | **Production Kafka Clusters** | Deployed Raft + Zookeeper architecture for high-throughput messaging |
 | **AI Model Deployment** | Containerized **LLaMA 3 (1.8B)** for inference workloads |
+| **Database High Availability** | Implemented **ProxySQL load balancing** with automated read/write splitting |
 | **Observability Excellence** | Delivered **99.9% SLA** with Prometheus + Grafana + Loki stack |
 | **Infrastructure Planning** | Led **BOQ creation** improving cost control and resource planning |
 | **Pipeline Optimization** | Reduced build/deploy time from **hours to minutes** |
@@ -78,6 +83,7 @@ I'm a passionate DevOps engineer specializing in **hybrid infrastructure archite
 ## 🔥 Featured Projects
 
 ### 🎯 **Production-Ready Infrastructure**
+- **[MySQL-NDB-Cluster](https://github.com/thenameisvikash/mysql_ndb_cluster)** — Production-ready MySQL Cluster (NDB) with ProxySQL for high availability, auto-failover, and read/write splitting
 - **[Kafka-HA-Cluster](https://github.com/thenameisvikash/kafka-ha-cluster)** — High-availability Kafka deployment with Raft consensus and Zookeeper coordination
 - **[Terraform-AWS-Infra](https://github.com/thenameisvikash/terraform-aws-infra)** — Complete AWS infrastructure automation with cost optimization and auto-scaling
 
